@@ -25,7 +25,7 @@ func main() {
 		gocron.DailyJob(
 			1,
 			gocron.NewAtTimes(
-				gocron.NewAtTime(23, 50, 0),
+				gocron.NewAtTime(0, 10, 0),
 			),
 		),
 		gocron.NewTask(
